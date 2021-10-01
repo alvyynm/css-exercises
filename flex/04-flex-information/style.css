@@ -27,8 +27,18 @@ img {
 
 /*SOLUTION*/
 
+/*Center everything horizontally*/
+body {
+  max-width: 75%;
+  margin: auto;
+}
+
 .title {
   text-align: center;
-  margin-bottom: 32px;
+  margin: 32px 0;
 }
  
+.container {
+  display: flex;
+  gap: 52px;
+}
