@@ -41,4 +41,17 @@ body {
 .container {
   display: flex;
   gap: 52px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  text-align: center;
 }
