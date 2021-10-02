@@ -31,13 +31,10 @@ input {
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around;
-  flex: 1 1 auto; */
+  height: 100vh;
+
 }
 
-/* * {
-  border: 5px solid green;
-} */
 ul {
   list-style-type: none;
   padding: 0;
@@ -61,10 +58,25 @@ ul {
 }
 
 .footer {
-  background-color: rgb(202, 202, 202);
+  background-color: #eeeeee;
 }
 
 a {
   text-decoration: none;
-  color: ;
+}
+
+.content {
+  margin: auto;
+}
+
+.buttons, .input {
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+}
+
+.input {
+  margin: 10px 0;
 }
