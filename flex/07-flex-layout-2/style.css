@@ -56,3 +56,9 @@ body {
 .card {
   
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
